@@ -1,6 +1,8 @@
 import { useHistory, useParams } from "react-router"
 import useFetch from "./useFetch"
 
+
+
 const RestaurantDetails = () => {
     const {id} = useParams()
     const { data: restaurant, error, isLoading } = useFetch('http://localhost:4000/restaurants/' + id)
@@ -44,6 +46,8 @@ const RestaurantDetails = () => {
                 <br></br>
                 <div><h3>Description:</h3> {restaurant.description}</div>
                 <br></br>
+                
+               
                 <button onClick={() => handleDelete(restaurant.id)}>Delete Restaurant</button>
                 </article>}
         </div>
