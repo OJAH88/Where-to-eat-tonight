@@ -6,15 +6,9 @@ import RestaurantList from "./RestaurantList"
 function Jane () {
     const { error, isLoading, data: restaurants } = useFetch('http://localhost:4000/restaurants')
 
-
-   
     const handleDelete = (id) => {
      
     }
-
-    
-
-
    
     return (
         <div className="home">
