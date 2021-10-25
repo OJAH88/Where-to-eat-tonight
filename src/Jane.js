@@ -19,7 +19,9 @@ function Jane () {
     return (
         <div className="home">
             
-
+            
+            
+          
             { error && <div>{ error }</div> }
             { isLoading && <div>Loading...</div> }
             

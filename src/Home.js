@@ -21,7 +21,7 @@ const Home = () => {
         <div className="home">
             
             
-            
+            <h1></h1>
           
             { error && <div>{ error }</div> }
             { isLoading && <div>Loading...</div> }
