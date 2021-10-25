@@ -7,8 +7,9 @@ import useFetch from "./useFetch"
 
 const Create = () => {
     const [name, setName] = useState('')
-    const [cuisine, setCuisine] = useState('')
+    const [type, setType] = useState('')
     const [image, setImage] = useState('')
+    const [menu, setMenu] = useState('')
     const [services, setServices] = useState([])
     const [street, setStreet] = useState('')
     const [city, setCity] = useState('')
@@ -26,7 +27,7 @@ const Create = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault()
-        const newRestaurant = { name, description, picker };
+        const newRestaurant = { name, type, image, description, address:{street, city, state, zipcode}, menu, services:{dinein, takeout, outdoorseating, delivery}, picker };
         console.log(newRestaurant)
 
         setIsLoading(true);
@@ -64,9 +65,9 @@ const Create = () => {
 
                 <label>Cuisine:</label>
                 <select
-                value={cuisine}
+                value={type}
                 placeholder="Pick A Cuisine Type"
-                onChange={(e) => setCuisine(e.target.value)}
+                onChange={(e) => setType(e.target.value)}
                 >
                     <option value="">Pick A Cuisine Type:</option>
                     <option value="Chinese">Chinese</option>
@@ -165,7 +166,7 @@ const Create = () => {
                 <br></br>
                 <h2>Restaurant Post Preview:</h2>
                 <p>{name}</p>
-                <p>{cuisine}</p>
+                <p>{type}</p>
                 <p> <img src = {image} alt = "temp image" width="50%" height="50%"  /> </p>
                 <p> {street} {city} {state} {zipcode}</p>
                 <p> {dinein} {takeout} {outdoorseating} {delivery} </p>

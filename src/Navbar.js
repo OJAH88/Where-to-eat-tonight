@@ -6,13 +6,16 @@ function Navbar(){
             <h1>Where To Eat</h1>
             <div className="links">
                 <Link to="/">Home</Link> 
-                <Link to="/jane">Jane's Picks</Link>
-                  <Link to="/jesse">Jesse's Picks</Link>
-                    <Link to="/create" style={{
+                <Link to="/jane" style={{
                     color: 'white',
                     backgroundColor: '#f1356d',
                     borderRadius: '8px'
-                }}>Submit New</Link>
+                }}>Jane's Picks</Link>
+                  <Link to="/jesse" style={{
+                    color: 'white',
+                    backgroundColor: '#f1356d',
+                    borderRadius: '8px'
+                }}>Jesse's Picks</Link>
                
             </div>
             </nav>
