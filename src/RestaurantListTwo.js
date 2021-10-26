@@ -3,7 +3,8 @@ import React from "react";
 import RestaurantDetails from "./RestaurantDetails";
 
 
-const RestaurantList = ({restaurants, title}) => {
+const RestaurantListTwo = ({restaurants, title}) => {
+
 
  
   return(
@@ -13,7 +14,6 @@ const RestaurantList = ({restaurants, title}) => {
       <div className="restaurant-preview" key={restaurant.id} >
          <Link to={`/restaurants/${restaurant.id}`}> 
         <div className="text-barrier">
-       
        
         <h2>{ restaurant.name }</h2>
         
@@ -26,4 +26,4 @@ const RestaurantList = ({restaurants, title}) => {
 );
 }
 
-export default RestaurantList; 
+export default RestaurantListTwo; 

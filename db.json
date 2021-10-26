@@ -3,212 +3,255 @@
     {
       "id": 1,
       "name": "CheLi",
-      "type":"Chinese", 
+      "type": "Chinese",
       "image": "https://media.newyorker.com/photos/6142aa6b4bfd910ea517b37e/master/w_1600,c_limit/210927_r39087.jpg",
+<<<<<<< HEAD
       "description":"Called CheLi, it specializes in the cuisine of Shanghai and the surrounding Jiangnan region. Inside, the dining room looks like a small, prerevolutionary Chinese village, although a few walls have been removed, which makes it easier to get to your table. Paper lanterns dangle here and there. Set on shelves overhead, at the level of the sloping roofs of overlapping curved tiles held up by wooden posts, are clay vessels of the kind traditionally used for turning rice and other grains into wine.",
+=======
+      "description": "PLACE HOLDER",
+>>>>>>> 12a6b3a574cd785f3d478027cb1bd7222c97b4b1
       "address": {
         "street": "19 St Marks Pl",
         "city": "New York",
         "state": "NY",
-        "zipcode": "10003" 
+        "zipcode": "10003"
       },
       "menu": "https://www.che-li.com/menus",
-      "services" :{
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": false,
-          "delivery":true
+      "services": {
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": false,
+        "delivery": true
       },
       "picker": "Jane"
     },
     {
       "id": 2,
       "name": "Yumplings",
-      "type": "Taiwanese", 
+      "type": "Taiwanese",
       "image": "https://yumpling.com/wp-content/uploads/2021/08/homepage-1-1.jpg",
+<<<<<<< HEAD
       "description":"Every dish at Yumpling starts with the freshest ingredients, prepared daily in small batches and cooked to perfection. We take our inspiration from traditional Taiwanese cuisine, as well as the food found at the bustling outdoor night markets of Taiwan.",
+=======
+      "description": "PLACE HOLDER",
+>>>>>>> 12a6b3a574cd785f3d478027cb1bd7222c97b4b1
       "address": {
-        "street": "49-11 Vernon Blvd",  
+        "street": "49-11 Vernon Blvd",
         "city": "Queens",
         "state": "NY",
         "zipcode": "11101"
       },
       "menu": "https://yumpling.com/menu/",
-      "services" :{
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": false,
-          "delivery":true
+      "services": {
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": false,
+        "delivery": true
       },
       "picker": "Jane"
     },
     {
       "id": 3,
       "name": "NONONO",
-      "type": "Japanese", 
+      "type": "Japanese",
       "image": "https://images.squarespace-cdn.com/content/v1/59f776520abd04e5c4009aa8/1610574373087-8DWFZLC081YUOV64VSA3/nonono+new+yakitori+page+0113.jpg?format=2500w",
+<<<<<<< HEAD
       "description":"MEAT TO YAKITORI, BONE TO RAMEN made with the entire chicken from a to z. All meat used for yakitori and all bones used for ramen broth keeping to traditional basics through our cooking preparations and prepping the day with fresh ingredients every morning, nonono adds their twist to the common japanese grill cuisine",
+=======
+      "description": "PLACE HOLDER",
+>>>>>>> 12a6b3a574cd785f3d478027cb1bd7222c97b4b1
       "address": {
-        "street": "118 Madison Ave", 
+        "street": "118 Madison Ave",
         "city": "New York",
         "state": "NY",
         "zipcode": "10016"
       },
       "menu": "https://www.nonononyc.com/",
-      "services" :{
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": true,
-          "delivery":true
+      "services": {
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": true,
+        "delivery": true
       },
       "picker": "Jane"
     },
     {
       "id": 4,
       "name": "Saigon Shack",
+<<<<<<< HEAD
       "type": "Vietnamese", 
       "image": "https://d1ralsognjng37.cloudfront.net/35c6db11-ffd2-49cc-999b-5db57317b2ac.jpeg",
       "description":"Steaming bowls of pho (noodle soup), tangy banh mi (baguette) sandwiches and crunchy spring rolls await at this bustling wood-lined eatery just a few strides from Washington Square Park. The prices are fair and the food arrives in a hurry; the only downside: you might have to wait for a table as it's a popular draw for the NYU crowd.",
+=======
+      "type": "Vietnamese",
+      "image": "data:image/jpeg;base64,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",
+      "description": "PLACE HOLDER",
+>>>>>>> 12a6b3a574cd785f3d478027cb1bd7222c97b4b1
       "address": {
-          "street": "114 MacDougal St",
-          "city": "New York",
-          "state": "NY",
-          "zipcode":"10012" 
-        },
+        "street": "114 MacDougal St",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10012"
+      },
       "menu": "https://www.saigonshack.com/menu",
-      "services" :{
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": true,
-          "delivery":true
+      "services": {
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": true,
+        "delivery": true
       },
       "picker": "Jane"
     },
     {
       "id": 5,
       "name": "Oregano",
-      "type": "Italian", 
+      "type": "Italian",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxblRROhD3gXCBVwh1HD36cqiXwSNlEILsLg&usqp=CAU",
+<<<<<<< HEAD
       "description":"Authentic Italian pizzas and pastas are turned out daily at this Williamsburg restaurant. A bustling crowd of young locals have embraced the freshly scrubbed airiness of the simple, rustic interior and the familiarity of the energetic and friendly servers who make guests feel at home. Pastas are house-made and al dente; we like the sautéed shrimp fettuccine and vegetable manicotti. Freshly tossed pies sport toppings like smoked salmon and ground beef and are ideal for sharing. Desserts such as tiramisu and profiteroles tempt at meal’s end. The BYOB policy gives diners unlimited options.",
+=======
+      "description": "PLACE HOLDER",
+>>>>>>> 12a6b3a574cd785f3d478027cb1bd7222c97b4b1
       "address": {
-          "street": "102 Berry St",
-          "city": "Brooklyn",
-          "state": "NY",
-          "zipcode": "11211"
-        },
+        "street": "102 Berry St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zipcode": "11211"
+      },
       "menu": "https://oreganowilliamsburg.square.site/?location=11ebd852fad2fbc38214ac1f6bbba82c",
-      "services" :{
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": false,
-          "delivery":true
+      "services": {
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": false,
+        "delivery": true
       },
       "picker": "Jane"
     },
     {
       "id": 6,
       "name": "Caracas Arepa Bar",
-      "type": "Latin", 
+      "type": "Latin",
       "image": "https://i.pinimg.com/736x/a2/f5/da/a2f5dacc6ba16fa753f07e53cf895aac--the-nyc-venezuelan-food.jpg",
-      "description":"Caracas Arepa Bar is devoted to the pleasure of homemade Venezuelan food. Since 2003 we have been dedicated to the idea of a space where authentic quality food converges with the eclectic vibe of our city. What began as a small arepa store front in the East Village has paved the path to our full service Williamsburg, Brooklyn restaurant, and a beachside arepa outpost in Rockaway Beach, Queens. The Williamsburg location boasts a large dining room, outdoor patio space and a full cocktail bar we call, Roneria Caracas. Roneria essentially means “Rum Bar”, and a rum bar we are! With over 40 rums from Central America, South America and the Caribbean Islands, we are always coming up with something new for you to try in our Brooklyn location. Our Rockaway Beach location opened in 2011 and is the newest member of the Caracas Arepa Bar family. The Rockaway location is seasonal, open mid-May through September. Come by and see us at the beach all summer long and enjoy your arepa in it’s natural environment: beachside! Our secret is consistency. It starts with a great deal of attention to choosing quality ingredients, and a lot of love for the craft of bringing the best of Venezuelan food to every table. No matter where you come from, whether you are part of the family or a first-time guest, you will feel the warmth of our dedication through the joy of our meals. We are not a fast food joint, and certainly not a Nuevo Latino restaurant. From the beginning, we have been driven by a combination of nostalgia, entrepreneurship, and authenticity. Our passion is our craft and our pleasure is being able to share it with you. Caracas Arepa Bar is only possible thanks to the dedication of its team led by native Venezuelans, Maribel Araujo and Aristides Barrios.",
+      "description": "Caracas Arepa Bar is devoted to the pleasure of homemade Venezuelan food. Since 2003 we have been dedicated to the idea of a space where authentic quality food converges with the eclectic vibe of our city. What began as a small arepa store front in the East Village has paved the path to our full service Williamsburg, Brooklyn restaurant, and a beachside arepa outpost in Rockaway Beach, Queens. The Williamsburg location boasts a large dining room, outdoor patio space and a full cocktail bar we call, Roneria Caracas. Roneria essentially means “Rum Bar”, and a rum bar we are! With over 40 rums from Central America, South America and the Caribbean Islands, we are always coming up with something new for you to try in our Brooklyn location. Our Rockaway Beach location opened in 2011 and is the newest member of the Caracas Arepa Bar family. The Rockaway location is seasonal, open mid-May through September. Come by and see us at the beach all summer long and enjoy your arepa in it’s natural environment: beachside! Our secret is consistency. It starts with a great deal of attention to choosing quality ingredients, and a lot of love for the craft of bringing the best of Venezuelan food to every table. No matter where you come from, whether you are part of the family or a first-time guest, you will feel the warmth of our dedication through the joy of our meals. We are not a fast food joint, and certainly not a Nuevo Latino restaurant. From the beginning, we have been driven by a combination of nostalgia, entrepreneurship, and authenticity. Our passion is our craft and our pleasure is being able to share it with you. Caracas Arepa Bar is only possible thanks to the dedication of its team led by native Venezuelans, Maribel Araujo and Aristides Barrios.",
       "address": {
-          "street": "291 Grand Street",
-          "city": "Brooklyn",
-          "state": "NY",
-          "zipcode": "11211" 
-        },
+        "street": "291 Grand Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zipcode": "11211"
+      },
       "menu": "https://static1.squarespace.com/static/5c0ec6534eddecff87315704/t/61390c8b4c27de3da9503f31/1631128716307/menu_sala_bk_21_06.pdf",
       "services": {
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": true,
-          "delivery": true
-        },
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": true,
+        "delivery": true
+      },
       "picker": "Jesse"
     },
     {
       "id": 7,
       "name": "Sottocasa",
-      "type": "Italian", 
+      "type": "Italian",
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/7a/a1/22/4-stagioni-pizza.jpg",
-      "description":"TASTE OF ITALY TO BROOKLYN - Luca and Mariarosa are the owners of Sottocasa located in Brooklyn’s Boreum Hill. Luca, An Italian actor from Italy, came to New York City from Milano, with his wife Laura (viverenewyork.com) to pursue their acting dream, a never-ending work in progress. Also having a great passion for food and cooking, he worked as waiter, manager, opened (and closed) his own catering company. All of which lead him down the path to learning how to make Neapolitan pizza from the best available in town, master Roberto Caporuscio of Kestè on Bleeker street. Eventually, opened his own little jewel, with the help of at-that-time partner Antonio Capone. Making pizza is an art, and a joyful one! When not at Sottocasa, you can find Luca teaching skiing at Hunter Mountain, racing triathlons and running along the waterfront in Brooklyn. Mariarosa (you can call her Mari when you meet her) is co-owner with Luca, and manager of the Brooklyn location. Mari grew up in Marone, a charming small town on Lake Iseo in northern Italy. She has over twenty years of experience as a waiter and restaurant manager, both in Italy and USA, and she recently started her journey to increase her knowledge in wine and spirits at the international wine center. Proud mom of 2 cats, avid reader and more of an adventurer  than an ordinary  traveler she  first came to New York in 2011 from Pavia on a reckless “exploration”and she immediately fell in love with the City.She has started working  at Sottocasa Pizzeria when it first opened, joining Luca as manager first then co owner of the Brooklyn location. Mari loves to think of Sottocasa as a big quaint and sometimes funnily “dysfunctional”  family she is happy  to be part of!",
+      "description": "TASTE OF ITALY TO BROOKLYN - Luca and Mariarosa are the owners of Sottocasa located in Brooklyn’s Boreum Hill. Luca, An Italian actor from Italy, came to New York City from Milano, with his wife Laura (viverenewyork.com) to pursue their acting dream, a never-ending work in progress. Also having a great passion for food and cooking, he worked as waiter, manager, opened (and closed) his own catering company. All of which lead him down the path to learning how to make Neapolitan pizza from the best available in town, master Roberto Caporuscio of Kestè on Bleeker street. Eventually, opened his own little jewel, with the help of at-that-time partner Antonio Capone. Making pizza is an art, and a joyful one! When not at Sottocasa, you can find Luca teaching skiing at Hunter Mountain, racing triathlons and running along the waterfront in Brooklyn. Mariarosa (you can call her Mari when you meet her) is co-owner with Luca, and manager of the Brooklyn location. Mari grew up in Marone, a charming small town on Lake Iseo in northern Italy. She has over twenty years of experience as a waiter and restaurant manager, both in Italy and USA, and she recently started her journey to increase her knowledge in wine and spirits at the international wine center. Proud mom of 2 cats, avid reader and more of an adventurer  than an ordinary  traveler she  first came to New York in 2011 from Pavia on a reckless “exploration”and she immediately fell in love with the City.She has started working  at Sottocasa Pizzeria when it first opened, joining Luca as manager first then co owner of the Brooklyn location. Mari loves to think of Sottocasa as a big quaint and sometimes funnily “dysfunctional”  family she is happy  to be part of!",
       "address": {
-          "street": "298 Atlantic Avenue",
-          "city": "Brooklyn",
-          "state": "NY",
-          "zipcode": "11201"
-        },
+        "street": "298 Atlantic Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zipcode": "11201"
+      },
       "menu": "https://sottocasanyc.com/brooklyn/",
       "services": {
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": true,
-          "delivery": true
-        },
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": true,
+        "delivery": true
+      },
       "picker": "Jesse"
     },
     {
       "id": 8,
       "name": "Wolfgang's Steakhouse",
-      "type": "Chophouse", 
+      "type": "Chophouse",
       "image": "https://2o7fsh4anuayrnrhe3us6v71-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/image-1.jpg",
-      "description":"After 4 decades of experience, it is fair to say that Wolfgang Zwiener learned his craft well. Taking the core principles from his years as Peter Luger’s head waiter, Wolfgang didn’t just duplicate an exceptional steakhouse; he improved upon it making Wolfgang’s Steakhouse extraordinary. Not only does Wolfgang’s serve phenomenal porterhouse steak (for one, two, three or more), but the atmosphere, the expanded menu, the service and the accessibility of the locations is appealing to even the most exciting diners. Wolfgang’s flagship Park Avenue location has enjoyed a full house since the day that it opened. Located in the heart of midtown Manhattan, the flagship Park Avenue Wolfgang’s is splendidly situated in the former Vanderbilt Hotel dining room. This building is a historic landmark unto itself. With arched ceilings tiled by the famed Rafael Guastavino, the restaurant’s architecture is stunning. Guastavino’s exquisite tile work displayed on the vaulted ceilings in blue and white, is found nowhere other than NYC. The old world artistry and architecture of our Park Avenue location created a Golden Age atmosphere that suits Wolfgang’s traditional menu quite dramatically and encourages diners to relax and thoroughly enjoy their meal.",
+      "description": "After 4 decades of experience, it is fair to say that Wolfgang Zwiener learned his craft well. Taking the core principles from his years as Peter Luger’s head waiter, Wolfgang didn’t just duplicate an exceptional steakhouse; he improved upon it making Wolfgang’s Steakhouse extraordinary. Not only does Wolfgang’s serve phenomenal porterhouse steak (for one, two, three or more), but the atmosphere, the expanded menu, the service and the accessibility of the locations is appealing to even the most exciting diners. Wolfgang’s flagship Park Avenue location has enjoyed a full house since the day that it opened. Located in the heart of midtown Manhattan, the flagship Park Avenue Wolfgang’s is splendidly situated in the former Vanderbilt Hotel dining room. This building is a historic landmark unto itself. With arched ceilings tiled by the famed Rafael Guastavino, the restaurant’s architecture is stunning. Guastavino’s exquisite tile work displayed on the vaulted ceilings in blue and white, is found nowhere other than NYC. The old world artistry and architecture of our Park Avenue location created a Golden Age atmosphere that suits Wolfgang’s traditional menu quite dramatically and encourages diners to relax and thoroughly enjoy their meal.",
       "address": {
-          "street": "409 Greenwich Street",
-          "city": "New York",
-          "state": "NY",
-          "zipcode": "10013"
-        },
+        "street": "409 Greenwich Street",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10013"
+      },
       "menu": "https://www.wolfgangssteakhouse.net/menus/",
       "services": {
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": false,
-          "delivery": false
-        },
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": false,
+        "delivery": false
+      },
       "picker": "Jesse"
-    },{
+    },
+    {
       "id": 9,
       "name": "Bedouin Tent",
-      "type": "Middle Eastern", 
+      "type": "Middle Eastern",
       "image": "https://images.squarespace-cdn.com/content/v1/53c71197e4b0db5fbd4fa87e/1487454909690-4KJZ7200EZN3T84FM13M/ROSE+%26+IVY+Journal+A+Taste+of+New+York+Bedouin+Tent+Brooklyn?format=1000w",
-      "description":"PLACE HOLDER",
+      "description": "PLACE HOLDER",
       "address": {
-          "street": "405 Atlantic Avenue",
-          "city": "Brooklyn",
-          "state": "NY",
-          "zipcode": "11217"
-        },
+        "street": "405 Atlantic Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zipcode": "11217"
+      },
       "menu": "https://www.allmenus.com/ny/brooklyn/274056-bedouin-tent/menu/",
       "services": {
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": true,
-          "delivery": true
-        },
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": true,
+        "delivery": true
+      },
       "picker": "Jesse"
-    },{
+    },
+    {
       "id": 10,
       "name": "Katz's Deli",
-      "type": "Delicatessen", 
+      "type": "Delicatessen",
       "image": "https://cdn.vox-cdn.com/thumbor/p4rNVVHzg23kcrsjHl4qKc7Y860=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10547027/Katzs_20Deli_20-_20pastrami_20autopsy_20shot.0.0.jpg",
-
       "description": "In 1888, a small deli by the name of Iceland Brothers was established on Ludlow Street in New York’s Lower East Side by the Iceland brothers. Upon the arrival of Willy Katz in 1903, the name of the store was officially changed to Iceland & Katz. Willy’s cousin Benny joined him in 1910, buying out the Iceland brothers to officially form Katz’s Delicatessen. Their landsman Harry Tarowsky bought into the partnership in April 1917. Katz’s Deli was moved across the street, to its present location, during the construction of the subway system. The vacant lot on Houston Street (pronounced House-ton) after a Dutch emigrant of the same name) was home to barrels of meat and pickles until the present storefront facade was added between 1946-49. In the early part of the twentieth century, the Lower East Side was home to millions of newly immigrated families. This, along with the lack of public and private transportation, forged a solid community such that Katz’s became a focal point for congregating. On Fridays the neighborhood turned out to enjoy franks and beans, a Katz tradition. During World War II, the three sons of the owners were all serving their country in the armed forces, and the family tradition of sending food to their sons became the company slogan “Send A Salami To Your Boy In The Army”. During the peak of the Yiddish theater, the restaurant was forever filled with actors, singers and comedians from the many theaters on 2nd Avenue, as well as the National Theater on Houston Street. Although the age of the Yiddish theater has passed, Katz's is still has its fair share of famous customers, whose photos now line our walls. The next change in ownership took place when Willy Katz passed away, and his son Lenny took over for him. In the late 70’s, both Benny Katz and Harry Tarowsky passed away, leaving the store to Benny's son-in-law Artie Maxstein and Harry's son Izzy Tarowsky. However by the mid-1980’s, the new generation of owners realized that they had no immediate family of their own to whom they could leave the store. Long-time friend and restaurateur Martin Dell, along with son Alan (who was a chef and a manager at a neighboring deli) and son-in-law Fred Austin, officially bought into the partnership in 1988 on the 100th anniversary of the store. Alan’s son Jake officially joined the store in late 2009 and is currently in charge of all major operations. Each week thousands of visitors from around the world flock to Katz's to dine in this legendary deli, and to feast on the most delectable sandwiches, platters and meats. But it's really New Yorkers have made Katz's Delicatessen what it is, making Katz's an inherent part of the city's culture and history. They enthusiastically spread the word, brought their friends in, wrote books, shot films, and kept coming back for a pastrami on rye. Building a reputation on longevity alone is nothin' to brag about, which is why we've built ours on quality. Now that's somethin' special. We only select the best cuts of beef for our corned beef, pastrami, brisket, and other fine foods. Our corned beef and pastrami is cured using a slower method, which best flavors the meat, without injecting chemicals, water, or other additives to speed the process. Our finished product can take up to a full 30 days to cure, while commercially prepared corned beef is often pressure-injected (or pumped) to cure in 36 hours. Yep, you read that right. 30 days vs. 36 hours. Now, which sounds like the better meat to you?",
       "address": {
-          "street": "205 East Houston Street",
-          "city": "New York",
-          "state": "NY",
-          "zipcode": "10002"
-        },
+        "street": "205 East Houston Street",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10002"
+      },
       "menu": "https://localmenu.katzsdelicatessen.com/",
       "services": {
-          "dinein": true,
-          "takeout": true,
-          "outdoorseating": false,
-          "delivery": true
-        },
+        "dinein": true,
+        "takeout": true,
+        "outdoorseating": false,
+        "delivery": true
+      },
       "picker": "Jesse"
-    }
-   
+    },
+    {
+      "name": "The Cute Palace",
+      "type": "Chophouse",
+      "image": "https://ojah88.github.io/Good-Doggos/2.jpeg",
+      "description": "blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop ",
+      "address": {
+        "street": "123 Fake Blvd",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "12345"
+      },
+      "menu": "",
+      "services": {
+        "dinein": "",
+        "takeout": "Take Out",
+        "outdoorseating": "Outdoor Seating",
+        "delivery": ""
+      },
+      "picker": "Jesse",
+      "id": 13
+    },
   ]
 }
