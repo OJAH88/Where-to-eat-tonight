@@ -46,7 +46,7 @@ const Create = () => {
             // history.go(-1)     goes back one page
             history.push('/')
         })
-    },1000)
+    },500)
         
         
     }

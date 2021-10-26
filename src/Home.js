@@ -18,9 +18,7 @@ const Home = () => {
             { isLoading && <div>Loading...</div> }
             {restaurants && <RestaurantList restaurants={restaurants} title="All Restaurants" handleDelete={handleDelete}/>}
             
-            {restaurants && <RestaurantList restaurants={restaurants.filter((restaurant) => restaurant.picker === 'Jane')} title="Jane's Picks"  handleDelete={handleDelete}  />}
           
-            {restaurants && <RestaurantList restaurants={restaurants.filter((restaurant) => restaurant.picker === 'Jesse')} title="Jesse' Picks"  handleDelete={handleDelete}/>}
         </div>
       );
             } 
