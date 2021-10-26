@@ -35,7 +35,7 @@ const RestaurantDetails = () => {
 
                 <Container fluid><center>
                     <Row>
-                <Col><img src={restaurant.image}  className='img-fluid rounded-pill shadow-2-strong' style={{ maxWidth: '20rem' }} /><br />
+                <Col><img src={restaurant.image}  className='img-fluid rounded-pill shadow-2-strong' border='5px solid' border-color= '#f1356d' style={{ maxWidth: '20rem' }} /><br /> <br />
 
                 <a href={restaurant.menu} target="_blank"> <button>Click Here For Menu</button></a></Col>
 
@@ -43,18 +43,26 @@ const RestaurantDetails = () => {
 
                 <p><h5>Address:</h5>{restaurant.address.street} <br />{restaurant.address.city},  {restaurant.address.state}  {restaurant.address.zipcode}</p>
 
-                <div><h5>Restaurant Features:<br />
-                {restaurant.services.dinein ? <button>Dine In</button> : null}{' '} 
-                {restaurant.services.takeout ? <button>Take Out</button> : null}{' '}
-                {restaurant.services.outdoorseating ? <button>Outdoor Seating</button> : null}{' '}
-                {restaurant.services.delivery ? <button>Delivery</button> : null}</h5>  </div> </Col> </Row> </center></Container>
+                <div>
+                    <h5>Restaurant Features:
+                        <br />
+                            {restaurant.services.dinein ? <a href="http://www.google.com" target="_blank"> <button>Dine In</button></a> : null}{' '} 
+                            {restaurant.services.takeout ? <a href="http://www.google.com" target="_blank"><button>Take Out</button></a>: null}{' '}
+                            {restaurant.services.outdoorseating ? <a href="http://www.google.com" target="_blank"><button>Outdoor Seating</button></a> : null}{' '}
+                            {restaurant.services.delivery ? <a href="http://www.google.com" target="_blank"><button>Delivery</button></a> : null}
+                            </h5>  
+                        </div> 
+                    </Col> 
+                    </Row> 
+                            </center>
+                            </Container>
          
                 <br></br>
                 <div><h3>Description:</h3> {restaurant.description}</div>
                 <br></br>
                 
-               
-                <Button variant="secondary" onClick={() => handleDelete(restaurant.id)}>Delete Restaurant</Button>
+               <div className= "remove">
+                <button onClick={() => handleDelete(restaurant.id)}>Delete Restaurant</button></div>
                 </article>}
         </div>
     )

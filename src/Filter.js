@@ -16,37 +16,33 @@ function Filter({handleFilter}){
             history.push(`/restaurants/${random}`)
         })
     }
+    
+
 
     
     return(
-        <div><center>
+        <div className = "filter"><center>
        <label><h4>Filter By Cuisine Type</h4></label>
        <br />
-                <select
-                value={type}
-                placeholder="Pick A Cuisine Type:"
-                onChange={(e) => {
-                    setType(e.target.value)
-                handleFilter(e.target.value)}}
-                >
-                    <option value="">All Cuisines</option>
-                    <option value="Chinese">Chinese</option>
-                    <option value="Taiwanese">Taiwanese</option>
-                    <option value="Japanese">Japanese</option>
-                    <option value="Vietnamese">Vietnamese</option>
-                    <option value="Italian">Italian</option>
-                    <option value="Latin">Latin</option>
-                    <option value="Middle Eastern">Middle Eastern</option>
-                    <option value="Chophouse">Chophouse</option>
-                    <option value="Delicatessen">Delicatessen</option>
+                
+                    <button class="btn-lg" value="" onClick={handleFilter}>All Cuisines</button>{' '}<br />
+                    <button value="Chinese" onClick={handleFilter}>Chinese</button>{' '}
+                    <button value="Taiwanese" onClick={handleFilter}>Taiwanese</button>{' '}
+                    <button value="Japanese" onClick={handleFilter}>Japanese</button>{' '}
+                    <button value="Vietnamese" onClick={handleFilter}>Vietnamese</button><br />
+                    <button value="Italian" onClick={handleFilter}>Italian</button>{' '}
+                    <button value="Latin" onClick={handleFilter}>Latin</button>{' '}
+                    <button value="Middle Eastern" onClick={handleFilter}>Middle Eastern</button>{' '}
+                    <button value="Chophouse" onClick={handleFilter}>Chophouse</button>{' '}
+                    <button value="Delicatessen" onClick={handleFilter}>Delicatessen</button>
 
-                </select>
+                {/* </select> */}
 
            <div>
            <br />
                 <h5>Still can't decide?</h5>
                
-               <Button variant="outline-danger" onClick={handleClick} id="generator">Let Fate Choose</Button>
+               <button class="btn-lg" onClick={handleClick} id="generator">Let Fate Choose</button>
         </div></center></div>
     )
 }
