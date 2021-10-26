@@ -20,14 +20,29 @@
 .navbar .links {
   margin-left: auto;
 }
+
+.navbar button {
+  background: #f1356d;
+  color: #fff;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.navbar button:hover{
+  color: #fff;
+  background: #881839;
+}
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
-.navbar a:hover {
-  color: #f1356d;
-}
+
 .content {
   max-width: 900px;
   margin: 40px auto;
@@ -46,6 +61,7 @@
 }
 .restaurant-preview:hover {
   box-shadow: 5px 7px 9px blueviolet;
+  background-color: #c8f3d8;
 }
 .restaurant-preview h2 {
   font-size: 20px;
@@ -72,6 +88,11 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.restaurant-details button:hover{
+  color: #fff;
+  background: #881839;
 }
 
 /* create new restaurant form */
@@ -105,3 +126,4 @@
   border-radius: 8px;
   cursor: pointer;
 }
+

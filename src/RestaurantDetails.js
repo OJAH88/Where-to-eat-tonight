@@ -1,5 +1,9 @@
 import { useHistory, useParams } from "react-router"
 import useFetch from "./useFetch"
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+import Button from "react-bootstrap/Button"
 
 
 
@@ -25,30 +29,32 @@ const RestaurantDetails = () => {
             { error && <div>{error}</div>}
             
             {restaurant && <article>
-                <h1>{restaurant.name}</h1>
+                <center><h1>{restaurant.name}</h1>
              
-                <p><h5>Picked By:  {restaurant.picker} </h5></p>
+                <p><h5>Picked By:  {restaurant.picker} </h5></p></center>
 
-                <img src={restaurant.image} width="50%" height="50%" />
+                <Container fluid><center>
+                    <Row>
+                <Col><img src={restaurant.image}  className='img-fluid rounded-pill shadow-2-strong' style={{ maxWidth: '20rem' }} /><br />
 
-                <p><br /><a href={restaurant.menu}> <button>Click Here For Menu</button></a></p><br />
+                <a href={restaurant.menu} target="_blank"> <button>Click Here For Menu</button></a></Col>
 
-                <p><h4>Cuisine:  {restaurant.type}  </h4></p> 
+                <Col><p><h4>Cuisine:  {restaurant.type}  </h4></p> 
 
-                <p><h4>Address:</h4>{restaurant.address.street} <br />{restaurant.address.city},  {restaurant.address.state}  {restaurant.address.zipcode}</p>
+                <p><h5>Address:</h5>{restaurant.address.street} <br />{restaurant.address.city},  {restaurant.address.state}  {restaurant.address.zipcode}</p>
 
-                <div><h4>Restaurant Features: </h4>
-                {restaurant.services.dinein ? <button>Dine In</button> : null} 
-                {restaurant.services.takeout ? <button>Take Out</button> : null}
-                {restaurant.services.outdoorseating ? <button>Outdoor Seating</button> : null}
-                {restaurant.services.delivery ? <button>Delivery</button> : null}  </div> 
+                <div><h5>Restaurant Features:<br />
+                {restaurant.services.dinein ? <button>Dine In</button> : null}{' '} 
+                {restaurant.services.takeout ? <button>Take Out</button> : null}{' '}
+                {restaurant.services.outdoorseating ? <button>Outdoor Seating</button> : null}{' '}
+                {restaurant.services.delivery ? <button>Delivery</button> : null}</h5>  </div> </Col> </Row> </center></Container>
          
                 <br></br>
                 <div><h3>Description:</h3> {restaurant.description}</div>
                 <br></br>
                 
                
-                <button onClick={() => handleDelete(restaurant.id)}>Delete Restaurant</button>
+                <Button variant="secondary" onClick={() => handleDelete(restaurant.id)}>Delete Restaurant</Button>
                 </article>}
         </div>
     )
