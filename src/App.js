@@ -6,10 +6,15 @@ import RestaurantDetails from './RestaurantDetails';
 import NotFound from './NotFound';
 import Jesse from './Jesse'
 import Jane from './Jane'
+import Filter from './Filter';
+import {useState} from 'react'
 
 
 
 function App() {
+  const [filterType, setFilterType] = useState('')
+  function handleFilter(type){
+    setFilterType(type)}
 
 
   return (
@@ -19,18 +24,21 @@ function App() {
       <div className="content">
         <Switch>
           <Route exact path="/">
-            <Home />
+          <Filter handleFilter={handleFilter}/>
+            <Home type={filterType} />
+            
           </Route>
           <Route path="/create">
             <Create />
           </Route>
           <Route path="/jane">
-            <Jane />
+          <Filter handleFilter={handleFilter}/>
+            <Jane type={filterType}/>
           </Route>
           <Route path="/jesse">
-            <Jesse />
+          <Filter handleFilter={handleFilter}/>
+            <Jesse type={filterType}/>
           </Route>
-
           <Route path="/restaurants/:id">
             <RestaurantDetails />
           </Route>

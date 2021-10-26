@@ -3,7 +3,7 @@ import useFetch from "./useFetch"
 import RestaurantList from "./RestaurantList"
 
 
-function Jane () {
+function Jane ({type}) {
     const { error, isLoading, data: restaurants } = useFetch('http://localhost:4000/restaurants')
 
     const handleDelete = (id) => {
@@ -17,9 +17,7 @@ function Jane () {
           
             { error && <div>{ error }</div> }
             { isLoading && <div>Loading...</div> }
-            
-            
-            {restaurants && <RestaurantList restaurants={restaurants.filter((restaurant) => restaurant.picker === 'Jane')} title="Jane's Picks"  handleDelete={handleDelete}  />}
+            {restaurants && <RestaurantList restaurants={type==="" ? restaurants.filter((restaurant) => restaurant.picker === 'Jane'): restaurants.filter((restaurant) => restaurant.picker === 'Jane').filter((restaurant)=> restaurant.type === type)} title="Jane's Picks"  handleDelete={handleDelete}  />}
           
            
         </div>
