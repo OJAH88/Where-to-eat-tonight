@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useHistory } from "react-router"
+import React, { useHistory, useParams } from "react-router"
 import useFetch from "./useFetch"
 
 

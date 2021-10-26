@@ -31,9 +31,9 @@ const RestaurantDetails = () => {
 
                 <img src={restaurant.image} width="50%" height="50%" />
 
-                <p><a href={restaurant.menu}> <button>Click Here For Menu</button></a></p>
+                <p><a href={restaurant.menu}> <button>Click Here For Menu</button></a></p><br />
 
-                <p><h4>Cuisine: </h4>{restaurant.type} </p>
+                <p><h4>Cuisine: </h4>{restaurant.type} </p> <br />
 
                 <p><h4>Address:</h4>{restaurant.address.street} <br />{restaurant.address.city},  {restaurant.address.state}  {restaurant.address.zipcode}</p>
 

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Form } from "semantic-ui-react";
 import RestaurantList from "./RestaurantList"
 import useFetch from "./useFetch"
 
