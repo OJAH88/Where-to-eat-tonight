@@ -25,15 +25,15 @@ const RestaurantDetails = () => {
             { error && <div>{error}</div>}
             
             {restaurant && <article>
-                <h2>{restaurant.name}</h2>
+                <h1>{restaurant.name}</h1>
              
-                <p><h4>Picked By: </h4>{restaurant.picker}</p>
+                <p><h5>Picked By:  {restaurant.picker} </h5></p>
 
                 <img src={restaurant.image} width="50%" height="50%" />
 
-                <p><a href={restaurant.menu}> <button>Click Here For Menu</button></a></p><br />
+                <p><br /><a href={restaurant.menu}> <button>Click Here For Menu</button></a></p><br />
 
-                <p><h4>Cuisine: </h4>{restaurant.type} </p> <br />
+                <p><h4>Cuisine:  {restaurant.type}  </h4></p> 
 
                 <p><h4>Address:</h4>{restaurant.address.street} <br />{restaurant.address.city},  {restaurant.address.state}  {restaurant.address.zipcode}</p>
 
