@@ -35,7 +35,7 @@ const RestaurantDetails = () => {
 
                 <Container fluid><center>
                     <Row>
-                <Col><img src={restaurant.image}  className='img-fluid rounded-pill shadow-2-strong' border='5px solid' border-color= '#f1356d' style={{ maxWidth: '20rem' }} /><br /> <br />
+                <Col><img src={restaurant.image}  className='img-fluid rounded-pill shadow-2-strong' border='2px solid' border-color= '#f1356d' style={{ maxWidth: '20rem' }} /><br /> <br />
 
                 <a href={restaurant.menu} target="_blank"> <button>Click Here For Menu</button></a></Col>
 

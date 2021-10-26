@@ -5,7 +5,7 @@
       "name": "CheLi",
       "type": "Chinese",
       "image": "https://media.newyorker.com/photos/6142aa6b4bfd910ea517b37e/master/w_1600,c_limit/210927_r39087.jpg",
-      "description":"Called CheLi, it specializes in the cuisine of Shanghai and the surrounding Jiangnan region. Inside, the dining room looks like a small, prerevolutionary Chinese village, although a few walls have been removed, which makes it easier to get to your table. Paper lanterns dangle here and there. Set on shelves overhead, at the level of the sloping roofs of overlapping curved tiles held up by wooden posts, are clay vessels of the kind traditionally used for turning rice and other grains into wine.",
+      "description": "Called CheLi, it specializes in the cuisine of Shanghai and the surrounding Jiangnan region. Inside, the dining room looks like a small, prerevolutionary Chinese village, although a few walls have been removed, which makes it easier to get to your table. Paper lanterns dangle here and there. Set on shelves overhead, at the level of the sloping roofs of overlapping curved tiles held up by wooden posts, are clay vessels of the kind traditionally used for turning rice and other grains into wine.",
       "address": {
         "street": "19 St Marks Pl",
         "city": "New York",
@@ -26,7 +26,7 @@
       "name": "Yumplings",
       "type": "Taiwanese",
       "image": "https://yumpling.com/wp-content/uploads/2021/08/homepage-1-1.jpg",
-      "description":"Every dish at Yumpling starts with the freshest ingredients, prepared daily in small batches and cooked to perfection. We take our inspiration from traditional Taiwanese cuisine, as well as the food found at the bustling outdoor night markets of Taiwan.",
+      "description": "Every dish at Yumpling starts with the freshest ingredients, prepared daily in small batches and cooked to perfection. We take our inspiration from traditional Taiwanese cuisine, as well as the food found at the bustling outdoor night markets of Taiwan.",
       "address": {
         "street": "49-11 Vernon Blvd",
         "city": "Queens",
@@ -47,7 +47,7 @@
       "name": "NONONO",
       "type": "Japanese",
       "image": "https://images.squarespace-cdn.com/content/v1/59f776520abd04e5c4009aa8/1610574373087-8DWFZLC081YUOV64VSA3/nonono+new+yakitori+page+0113.jpg?format=2500w",
-      "description":"MEAT TO YAKITORI, BONE TO RAMEN made with the entire chicken from a to z. All meat used for yakitori and all bones used for ramen broth keeping to traditional basics through our cooking preparations and prepping the day with fresh ingredients every morning, nonono adds their twist to the common japanese grill cuisine",
+      "description": "MEAT TO YAKITORI, BONE TO RAMEN made with the entire chicken from a to z. All meat used for yakitori and all bones used for ramen broth keeping to traditional basics through our cooking preparations and prepping the day with fresh ingredients every morning, nonono adds their twist to the common japanese grill cuisine",
       "address": {
         "street": "118 Madison Ave",
         "city": "New York",
@@ -66,9 +66,9 @@
     {
       "id": 4,
       "name": "Saigon Shack",
-      "type": "Vietnamese", 
+      "type": "Vietnamese",
       "image": "https://d1ralsognjng37.cloudfront.net/35c6db11-ffd2-49cc-999b-5db57317b2ac.jpeg",
-      "description":"Steaming bowls of pho (noodle soup), tangy banh mi (baguette) sandwiches and crunchy spring rolls await at this bustling wood-lined eatery just a few strides from Washington Square Park. The prices are fair and the food arrives in a hurry; the only downside: you might have to wait for a table as it's a popular draw for the NYU crowd.",
+      "description": "Steaming bowls of pho (noodle soup), tangy banh mi (baguette) sandwiches and crunchy spring rolls await at this bustling wood-lined eatery just a few strides from Washington Square Park. The prices are fair and the food arrives in a hurry; the only downside: you might have to wait for a table as it's a popular draw for the NYU crowd.",
       "address": {
         "street": "114 MacDougal St",
         "city": "New York",
@@ -89,7 +89,7 @@
       "name": "Oregano",
       "type": "Italian",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxblRROhD3gXCBVwh1HD36cqiXwSNlEILsLg&usqp=CAU",
-      "description":"Authentic Italian pizzas and pastas are turned out daily at this Williamsburg restaurant. A bustling crowd of young locals have embraced the freshly scrubbed airiness of the simple, rustic interior and the familiarity of the energetic and friendly servers who make guests feel at home. Pastas are house-made and al dente; we like the sautéed shrimp fettuccine and vegetable manicotti. Freshly tossed pies sport toppings like smoked salmon and ground beef and are ideal for sharing. Desserts such as tiramisu and profiteroles tempt at meal’s end. The BYOB policy gives diners unlimited options.",
+      "description": "Authentic Italian pizzas and pastas are turned out daily at this Williamsburg restaurant. A bustling crowd of young locals have embraced the freshly scrubbed airiness of the simple, rustic interior and the familiarity of the energetic and friendly servers who make guests feel at home. Pastas are house-made and al dente; we like the sautéed shrimp fettuccine and vegetable manicotti. Freshly tossed pies sport toppings like smoked salmon and ground beef and are ideal for sharing. Desserts such as tiramisu and profiteroles tempt at meal’s end. The BYOB policy gives diners unlimited options.",
       "address": {
         "street": "102 Berry St",
         "city": "Brooklyn",
@@ -165,27 +165,6 @@
         "takeout": true,
         "outdoorseating": false,
         "delivery": false
-      },
-      "picker": "Jesse"
-    },
-    {
-      "id": 9,
-      "name": "Bedouin Tent",
-      "type": "Middle Eastern",
-      "image": "https://images.squarespace-cdn.com/content/v1/53c71197e4b0db5fbd4fa87e/1487454909690-4KJZ7200EZN3T84FM13M/ROSE+%26+IVY+Journal+A+Taste+of+New+York+Bedouin+Tent+Brooklyn?format=1000w",
-      "description": "PLACE HOLDER",
-      "address": {
-        "street": "405 Atlantic Avenue",
-        "city": "Brooklyn",
-        "state": "NY",
-        "zipcode": "11217"
-      },
-      "menu": "https://www.allmenus.com/ny/brooklyn/274056-bedouin-tent/menu/",
-      "services": {
-        "dinein": true,
-        "takeout": true,
-        "outdoorseating": true,
-        "delivery": true
       },
       "picker": "Jesse"
     },

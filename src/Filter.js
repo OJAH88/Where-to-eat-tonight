@@ -24,19 +24,26 @@ function Filter({handleFilter}){
         <div className = "filter"><center>
        <label><h4>Filter By Cuisine Type</h4></label>
        <br />
+       <select
+                value={type}
+                placeholder="Pick A Cuisine Type"
+                onChange={(e) => {
+                    setType(e.target.value)
+                handleFilter(e.target.value)}}
                 
-                    <button class="btn-lg" value="" onClick={handleFilter}>All Cuisines</button>{' '}<br />
-                    <button value="Chinese" onClick={handleFilter}>Chinese</button>{' '}
-                    <button value="Taiwanese" onClick={handleFilter}>Taiwanese</button>{' '}
-                    <button value="Japanese" onClick={handleFilter}>Japanese</button>{' '}
-                    <button value="Vietnamese" onClick={handleFilter}>Vietnamese</button><br />
-                    <button value="Italian" onClick={handleFilter}>Italian</button>{' '}
-                    <button value="Latin" onClick={handleFilter}>Latin</button>{' '}
-                    <button value="Middle Eastern" onClick={handleFilter}>Middle Eastern</button>{' '}
-                    <button value="Chophouse" onClick={handleFilter}>Chophouse</button>{' '}
-                    <button value="Delicatessen" onClick={handleFilter}>Delicatessen</button>
+                >
+                    <option value="">Pick A Cuisine Type:</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Taiwanese">Taiwanese</option>
+                    <option value="Japanese">Japanese</option>
+                    <option value="Vietnamese">Vietnamese</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Latin">Latin</option>
+                    <option value="Middle Eastern">Middle Eastern</option>
+                    <option value="Chophouse">Chophouse</option>
+                    <option value="Delicatessen">Delicatessen</option>
 
-                {/* </select> */}
+                </select>
 
            <div>
            <br />
