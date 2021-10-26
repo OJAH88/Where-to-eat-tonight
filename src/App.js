@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import Navbar from './NavBar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
@@ -26,7 +26,6 @@ function App() {
           <Route exact path="/">
           <Filter handleFilter={handleFilter}/>
             <Home type={filterType} />
-            
           </Route>
           <Route path="/create">
             <Create />

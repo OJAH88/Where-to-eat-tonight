@@ -15,7 +15,6 @@ function Jesse ({type}) {
             { error && <div>{ error }</div> }
             { isLoading && <div>Loading...</div> }
             
-            
             {restaurants && <RestaurantList restaurants={type==="" ? restaurants.filter((restaurant) => restaurant.picker === 'Jesse'): restaurants.filter((restaurant) => restaurant.picker === 'Jesse').filter((restaurant)=> restaurant.type === type)} title="Jesse's Picks"  handleDelete={handleDelete}  />}
           
            
