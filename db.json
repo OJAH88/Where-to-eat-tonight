@@ -169,6 +169,18 @@
       "picker": "Jesse"
     },
     {
+      "id": 9,
+      "name": "Bedouin Tent",
+      "type": "Middle Eastern", 
+      "image": "https://images.squarespace-cdn.com/content/v1/53c71197e4b0db5fbd4fa87e/1487454909690-4KJZ7200EZN3T84FM13M/ROSE+%26+IVY+Journal+A+Taste+of+New+York+Bedouin+Tent+Brooklyn?format=1000w",
+      "description":"PLACE HOLDER",
+      "address": {
+          "street": "405 Atlantic Avenue",
+          "city": "Brooklyn",
+          "state": "NY",
+          "zipcode": "11217"
+        },
+    {
       "id": 10,
       "name": "Katz's Deli",
       "type": "Delicatessen",
