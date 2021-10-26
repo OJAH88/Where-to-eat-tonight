@@ -6,6 +6,7 @@ function Navbar(){
             <h1>Where To Eat</h1>
             <div className="links">
                 <Link to="/">Home</Link> 
+                <Link to="/create">Add Restaurants</Link>
                 <Link to="/jane" style={{
                     color: 'white',
                     backgroundColor: '#f1356d',
