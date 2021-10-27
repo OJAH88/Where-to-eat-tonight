@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
+import { useState } from "react"
 
 
 
@@ -20,7 +21,25 @@ const RestaurantDetails = () => {
         })
         
     }
-    console.log(restaurant)
+    const [newComment , setNewComment]= useState([])
+    function handleComments(e){ 
+       setNewComment(e.target.value)}
+    function submitComment(){
+        let updatedComments = [...restaurant.comments, newComment]
+        fetch('http://localhost:4000/restaurants/' + restaurant.id, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                comments:  updatedComments
+              }),
+            })
+        .then(r=>r.json())
+        .then((data)=> { console.log(data)
+        history.push("/restaurants")})    
+        
+    }
 
     return(
         <div className="restaurant-details">
@@ -60,13 +79,14 @@ const RestaurantDetails = () => {
                 <br></br>
                 <div><h3>Description:</h3> {restaurant.description}</div>
                 <div><h3>Comments: </h3> 
-                <p>{restaurant.comments}</p>
+                <p>{restaurant.comments.map((comment)=>{
+                return <li>{comment}</li>})}</p>
                 </div>
                 <textarea
-                    value={null}
-                    onChange={null}
+                    value={newComment}
+                    onChange={handleComments}
                 />
-                <button>Add Comments</button>
+                <button onClick={submitComment}>Add Comments</button>
 
                 <br></br>
                 

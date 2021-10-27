@@ -22,7 +22,7 @@ const Create = () => {
     const [outdoorseating, setOutdoorseating] = useState('')
     const [delivery, setDelivery] = useState('')
     const [description, setDescription] = useState('')
-    const [comments, setComments] = useState('')
+    const [comments, setComments] = useState([])
     const [picker, setPicker] = useState('')
     const [isLoading, setIsLoading] = useState(false);
     const history = useHistory();
@@ -30,7 +30,7 @@ const Create = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault()
-        const newRestaurant = { name, type, image, description, address:{street, city, state, zipcode}, menu, services:{dinein, takeout, outdoorseating, delivery}, picker };
+        const newRestaurant = { name, type, image, description, address:{street, city, state, zipcode}, menu, services:{dinein, takeout, outdoorseating, delivery}, comments, picker };
         console.log(newRestaurant)
 
         setIsLoading(true);
