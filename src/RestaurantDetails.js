@@ -20,7 +20,7 @@ const RestaurantDetails = () => {
         })
         
     }
-
+    console.log(restaurant)
 
     return(
         <div className="restaurant-details">
@@ -59,6 +59,15 @@ const RestaurantDetails = () => {
          
                 <br></br>
                 <div><h3>Description:</h3> {restaurant.description}</div>
+                <div><h3>Comments: </h3> 
+                <p>{restaurant.comments}</p>
+                </div>
+                <textarea
+                    value={null}
+                    onChange={null}
+                />
+                <button>Add Comments</button>
+
                 <br></br>
                 
                <div className= "remove">
