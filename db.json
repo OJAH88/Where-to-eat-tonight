@@ -5,7 +5,7 @@
       "name": "CheLi",
       "type": "Chinese",
       "image": "https://media.newyorker.com/photos/6142aa6b4bfd910ea517b37e/master/w_1600,c_limit/210927_r39087.jpg",
-      "description":"Called CheLi, it specializes in the cuisine of Shanghai and the surrounding Jiangnan region. Inside, the dining room looks like a small, prerevolutionary Chinese village, although a few walls have been removed, which makes it easier to get to your table. Paper lanterns dangle here and there. Set on shelves overhead, at the level of the sloping roofs of overlapping curved tiles held up by wooden posts, are clay vessels of the kind traditionally used for turning rice and other grains into wine.",
+      "description": "Called CheLi, it specializes in the cuisine of Shanghai and the surrounding Jiangnan region. Inside, the dining room looks like a small, prerevolutionary Chinese village, although a few walls have been removed, which makes it easier to get to your table. Paper lanterns dangle here and there. Set on shelves overhead, at the level of the sloping roofs of overlapping curved tiles held up by wooden posts, are clay vessels of the kind traditionally used for turning rice and other grains into wine.",
       "address": {
         "street": "19 St Marks Pl",
         "city": "New York",
@@ -26,7 +26,7 @@
       "name": "Yumplings",
       "type": "Taiwanese",
       "image": "https://yumpling.com/wp-content/uploads/2021/08/homepage-1-1.jpg",
-      "description":"Every dish at Yumpling starts with the freshest ingredients, prepared daily in small batches and cooked to perfection. We take our inspiration from traditional Taiwanese cuisine, as well as the food found at the bustling outdoor night markets of Taiwan.",
+      "description": "Every dish at Yumpling starts with the freshest ingredients, prepared daily in small batches and cooked to perfection. We take our inspiration from traditional Taiwanese cuisine, as well as the food found at the bustling outdoor night markets of Taiwan.",
       "address": {
         "street": "49-11 Vernon Blvd",
         "city": "Queens",
@@ -47,7 +47,7 @@
       "name": "NONONO",
       "type": "Japanese",
       "image": "https://images.squarespace-cdn.com/content/v1/59f776520abd04e5c4009aa8/1610574373087-8DWFZLC081YUOV64VSA3/nonono+new+yakitori+page+0113.jpg?format=2500w",
-      "description":"MEAT TO YAKITORI, BONE TO RAMEN made with the entire chicken from a to z. All meat used for yakitori and all bones used for ramen broth keeping to traditional basics through our cooking preparations and prepping the day with fresh ingredients every morning, nonono adds their twist to the common japanese grill cuisine",
+      "description": "MEAT TO YAKITORI, BONE TO RAMEN made with the entire chicken from a to z. All meat used for yakitori and all bones used for ramen broth keeping to traditional basics through our cooking preparations and prepping the day with fresh ingredients every morning, nonono adds their twist to the common japanese grill cuisine",
       "address": {
         "street": "118 Madison Ave",
         "city": "New York",
@@ -66,9 +66,9 @@
     {
       "id": 4,
       "name": "Saigon Shack",
-      "type": "Vietnamese", 
+      "type": "Vietnamese",
       "image": "https://d1ralsognjng37.cloudfront.net/35c6db11-ffd2-49cc-999b-5db57317b2ac.jpeg",
-      "description":"Steaming bowls of pho (noodle soup), tangy banh mi (baguette) sandwiches and crunchy spring rolls await at this bustling wood-lined eatery just a few strides from Washington Square Park. The prices are fair and the food arrives in a hurry; the only downside: you might have to wait for a table as it's a popular draw for the NYU crowd.",
+      "description": "Steaming bowls of pho (noodle soup), tangy banh mi (baguette) sandwiches and crunchy spring rolls await at this bustling wood-lined eatery just a few strides from Washington Square Park. The prices are fair and the food arrives in a hurry; the only downside: you might have to wait for a table as it's a popular draw for the NYU crowd.",
       "address": {
         "street": "114 MacDougal St",
         "city": "New York",
@@ -89,7 +89,7 @@
       "name": "Oregano",
       "type": "Italian",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxblRROhD3gXCBVwh1HD36cqiXwSNlEILsLg&usqp=CAU",
-      "description":"Authentic Italian pizzas and pastas are turned out daily at this Williamsburg restaurant. A bustling crowd of young locals have embraced the freshly scrubbed airiness of the simple, rustic interior and the familiarity of the energetic and friendly servers who make guests feel at home. Pastas are house-made and al dente; we like the sautéed shrimp fettuccine and vegetable manicotti. Freshly tossed pies sport toppings like smoked salmon and ground beef and are ideal for sharing. Desserts such as tiramisu and profiteroles tempt at meal’s end. The BYOB policy gives diners unlimited options.",
+      "description": "Authentic Italian pizzas and pastas are turned out daily at this Williamsburg restaurant. A bustling crowd of young locals have embraced the freshly scrubbed airiness of the simple, rustic interior and the familiarity of the energetic and friendly servers who make guests feel at home. Pastas are house-made and al dente; we like the sautéed shrimp fettuccine and vegetable manicotti. Freshly tossed pies sport toppings like smoked salmon and ground beef and are ideal for sharing. Desserts such as tiramisu and profiteroles tempt at meal’s end. The BYOB policy gives diners unlimited options.",
       "address": {
         "street": "102 Berry St",
         "city": "Brooklyn",
@@ -108,128 +108,107 @@
     {
       "id": 6,
       "name": "Caracas Arepa Bar",
-      "type": "Latin",
+      "type": "Latin", 
       "image": "https://i.pinimg.com/736x/a2/f5/da/a2f5dacc6ba16fa753f07e53cf895aac--the-nyc-venezuelan-food.jpg",
-      "description": "Caracas Arepa Bar is devoted to the pleasure of homemade Venezuelan food. Since 2003 we have been dedicated to the idea of a space where authentic quality food converges with the eclectic vibe of our city. What began as a small arepa store front in the East Village has paved the path to our full service Williamsburg, Brooklyn restaurant, and a beachside arepa outpost in Rockaway Beach, Queens. The Williamsburg location boasts a large dining room, outdoor patio space and a full cocktail bar we call, Roneria Caracas. Roneria essentially means “Rum Bar”, and a rum bar we are! With over 40 rums from Central America, South America and the Caribbean Islands, we are always coming up with something new for you to try in our Brooklyn location. Our Rockaway Beach location opened in 2011 and is the newest member of the Caracas Arepa Bar family. The Rockaway location is seasonal, open mid-May through September. Come by and see us at the beach all summer long and enjoy your arepa in it’s natural environment: beachside! Our secret is consistency. It starts with a great deal of attention to choosing quality ingredients, and a lot of love for the craft of bringing the best of Venezuelan food to every table. No matter where you come from, whether you are part of the family or a first-time guest, you will feel the warmth of our dedication through the joy of our meals. We are not a fast food joint, and certainly not a Nuevo Latino restaurant. From the beginning, we have been driven by a combination of nostalgia, entrepreneurship, and authenticity. Our passion is our craft and our pleasure is being able to share it with you. Caracas Arepa Bar is only possible thanks to the dedication of its team led by native Venezuelans, Maribel Araujo and Aristides Barrios.",
+      "description":"Caracas Arepa Bar is devoted to the pleasure of homemade Venezuelan food. Since 2003 we have been dedicated to the idea of a space where authentic quality food converges with the eclectic vibe of our city. What began as a small arepa store front in the East Village has paved the path to our full service Williamsburg, Brooklyn restaurant, and a beachside arepa outpost in Rockaway Beach, Queens. The Williamsburg location boasts a large dining room, outdoor patio space and a full cocktail bar we call, Roneria Caracas. Roneria essentially means “Rum Bar”, and a rum bar we are! With over 40 rums from Central America, South America and the Caribbean Islands, we are always coming up with something new for you to try in our Brooklyn location. Our Rockaway Beach location opened in 2011 and is the newest member of the Caracas Arepa Bar family. The Rockaway location is seasonal, open mid-May through September. Come by and see us at the beach all summer long and enjoy your arepa in it’s natural environment: beachside! Our secret is consistency. It starts with a great deal of attention to choosing quality ingredients, and a lot of love for the craft of bringing the best of Venezuelan food to every table. No matter where you come from, whether you are part of the family or a first-time guest, you will feel the warmth of our dedication through the joy of our meals. We are not a fast food joint, and certainly not a Nuevo Latino restaurant. From the beginning, we have been driven by a combination of nostalgia, entrepreneurship, and authenticity. Our passion is our craft and our pleasure is being able to share it with you. Caracas Arepa Bar is only possible thanks to the dedication of its team led by native Venezuelans, Maribel Araujo and Aristides Barrios.",
       "address": {
-        "street": "291 Grand Street",
-        "city": "Brooklyn",
-        "state": "NY",
-        "zipcode": "11211"
-      },
+          "street": "291 Grand Street",
+          "city": "Brooklyn",
+          "state": "NY",
+          "zipcode": "11211" 
+        },
       "menu": "https://static1.squarespace.com/static/5c0ec6534eddecff87315704/t/61390c8b4c27de3da9503f31/1631128716307/menu_sala_bk_21_06.pdf",
       "services": {
-        "dinein": true,
-        "takeout": true,
-        "outdoorseating": true,
-        "delivery": true
-      },
+          "dinein": true,
+          "takeout": true,
+          "outdoorseating": true,
+          "delivery": true
+        },
       "picker": "Jesse"
     },
     {
       "id": 7,
       "name": "Sottocasa",
-      "type": "Italian",
+      "type": "Italian", 
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/7a/a1/22/4-stagioni-pizza.jpg",
-      "description": "TASTE OF ITALY TO BROOKLYN - Luca and Mariarosa are the owners of Sottocasa located in Brooklyn’s Boreum Hill. Luca, An Italian actor from Italy, came to New York City from Milano, with his wife Laura (viverenewyork.com) to pursue their acting dream, a never-ending work in progress. Also having a great passion for food and cooking, he worked as waiter, manager, opened (and closed) his own catering company. All of which lead him down the path to learning how to make Neapolitan pizza from the best available in town, master Roberto Caporuscio of Kestè on Bleeker street. Eventually, opened his own little jewel, with the help of at-that-time partner Antonio Capone. Making pizza is an art, and a joyful one! When not at Sottocasa, you can find Luca teaching skiing at Hunter Mountain, racing triathlons and running along the waterfront in Brooklyn. Mariarosa (you can call her Mari when you meet her) is co-owner with Luca, and manager of the Brooklyn location. Mari grew up in Marone, a charming small town on Lake Iseo in northern Italy. She has over twenty years of experience as a waiter and restaurant manager, both in Italy and USA, and she recently started her journey to increase her knowledge in wine and spirits at the international wine center. Proud mom of 2 cats, avid reader and more of an adventurer  than an ordinary  traveler she  first came to New York in 2011 from Pavia on a reckless “exploration”and she immediately fell in love with the City.She has started working  at Sottocasa Pizzeria when it first opened, joining Luca as manager first then co owner of the Brooklyn location. Mari loves to think of Sottocasa as a big quaint and sometimes funnily “dysfunctional”  family she is happy  to be part of!",
+      "description":"TASTE OF ITALY TO BROOKLYN - Luca and Mariarosa are the owners of Sottocasa located in Brooklyn’s Boreum Hill. Luca, An Italian actor from Italy, came to New York City from Milano, with his wife Laura (viverenewyork.com) to pursue their acting dream, a never-ending work in progress. Also having a great passion for food and cooking, he worked as waiter, manager, opened (and closed) his own catering company. All of which lead him down the path to learning how to make Neapolitan pizza from the best available in town, master Roberto Caporuscio of Kestè on Bleeker street. Eventually, opened his own little jewel, with the help of at-that-time partner Antonio Capone. Making pizza is an art, and a joyful one! When not at Sottocasa, you can find Luca teaching skiing at Hunter Mountain, racing triathlons and running along the waterfront in Brooklyn. Mariarosa (you can call her Mari when you meet her) is co-owner with Luca, and manager of the Brooklyn location. Mari grew up in Marone, a charming small town on Lake Iseo in northern Italy. She has over twenty years of experience as a waiter and restaurant manager, both in Italy and USA, and she recently started her journey to increase her knowledge in wine and spirits at the international wine center. Proud mom of 2 cats, avid reader and more of an adventurer  than an ordinary  traveler she  first came to New York in 2011 from Pavia on a reckless “exploration”and she immediately fell in love with the City.She has started working  at Sottocasa Pizzeria when it first opened, joining Luca as manager first then co owner of the Brooklyn location. Mari loves to think of Sottocasa as a big quaint and sometimes funnily “dysfunctional”  family she is happy  to be part of!",
       "address": {
-        "street": "298 Atlantic Avenue",
-        "city": "Brooklyn",
-        "state": "NY",
-        "zipcode": "11201"
-      },
+          "street": "298 Atlantic Avenue",
+          "city": "Brooklyn",
+          "state": "NY",
+          "zipcode": "11201"
+        },
       "menu": "https://sottocasanyc.com/brooklyn/",
       "services": {
-        "dinein": true,
-        "takeout": true,
-        "outdoorseating": true,
-        "delivery": true
-      },
+          "dinein": true,
+          "takeout": true,
+          "outdoorseating": true,
+          "delivery": true
+        },
       "picker": "Jesse"
     },
     {
       "id": 8,
       "name": "Wolfgang's Steakhouse",
-      "type": "Chophouse",
+      "type": "Chophouse", 
       "image": "https://2o7fsh4anuayrnrhe3us6v71-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/image-1.jpg",
-      "description": "After 4 decades of experience, it is fair to say that Wolfgang Zwiener learned his craft well. Taking the core principles from his years as Peter Luger’s head waiter, Wolfgang didn’t just duplicate an exceptional steakhouse; he improved upon it making Wolfgang’s Steakhouse extraordinary. Not only does Wolfgang’s serve phenomenal porterhouse steak (for one, two, three or more), but the atmosphere, the expanded menu, the service and the accessibility of the locations is appealing to even the most exciting diners. Wolfgang’s flagship Park Avenue location has enjoyed a full house since the day that it opened. Located in the heart of midtown Manhattan, the flagship Park Avenue Wolfgang’s is splendidly situated in the former Vanderbilt Hotel dining room. This building is a historic landmark unto itself. With arched ceilings tiled by the famed Rafael Guastavino, the restaurant’s architecture is stunning. Guastavino’s exquisite tile work displayed on the vaulted ceilings in blue and white, is found nowhere other than NYC. The old world artistry and architecture of our Park Avenue location created a Golden Age atmosphere that suits Wolfgang’s traditional menu quite dramatically and encourages diners to relax and thoroughly enjoy their meal.",
+      "description":"After 4 decades of experience, it is fair to say that Wolfgang Zwiener learned his craft well. Taking the core principles from his years as Peter Luger’s head waiter, Wolfgang didn’t just duplicate an exceptional steakhouse; he improved upon it making Wolfgang’s Steakhouse extraordinary. Not only does Wolfgang’s serve phenomenal porterhouse steak (for one, two, three or more), but the atmosphere, the expanded menu, the service and the accessibility of the locations is appealing to even the most exciting diners. Wolfgang’s flagship Park Avenue location has enjoyed a full house since the day that it opened. Located in the heart of midtown Manhattan, the flagship Park Avenue Wolfgang’s is splendidly situated in the former Vanderbilt Hotel dining room. This building is a historic landmark unto itself. With arched ceilings tiled by the famed Rafael Guastavino, the restaurant’s architecture is stunning. Guastavino’s exquisite tile work displayed on the vaulted ceilings in blue and white, is found nowhere other than NYC. The old world artistry and architecture of our Park Avenue location created a Golden Age atmosphere that suits Wolfgang’s traditional menu quite dramatically and encourages diners to relax and thoroughly enjoy their meal.",
       "address": {
-        "street": "409 Greenwich Street",
-        "city": "New York",
-        "state": "NY",
-        "zipcode": "10013"
-      },
+          "street": "409 Greenwich Street",
+          "city": "New York",
+          "state": "NY",
+          "zipcode": "10013"
+        },
       "menu": "https://www.wolfgangssteakhouse.net/menus/",
       "services": {
-        "dinein": true,
-        "takeout": true,
-        "outdoorseating": false,
-        "delivery": false
-      },
+          "dinein": true,
+          "takeout": true,
+          "outdoorseating": false,
+          "delivery": false
+        },
       "picker": "Jesse"
-    },
-    {
+    },{
       "id": 9,
       "name": "Bedouin Tent",
-      "type": "Middle Eastern",
+      "type": "Middle Eastern", 
       "image": "https://images.squarespace-cdn.com/content/v1/53c71197e4b0db5fbd4fa87e/1487454909690-4KJZ7200EZN3T84FM13M/ROSE+%26+IVY+Journal+A+Taste+of+New+York+Bedouin+Tent+Brooklyn?format=1000w",
-      "description": "PLACE HOLDER",
+      "description":"PLACE HOLDER",
       "address": {
-        "street": "405 Atlantic Avenue",
-        "city": "Brooklyn",
-        "state": "NY",
-        "zipcode": "11217"
-      },
+          "street": "405 Atlantic Avenue",
+          "city": "Brooklyn",
+          "state": "NY",
+          "zipcode": "11217"
+        },
       "menu": "https://www.allmenus.com/ny/brooklyn/274056-bedouin-tent/menu/",
       "services": {
-        "dinein": true,
-        "takeout": true,
-        "outdoorseating": true,
-        "delivery": true
-      },
+          "dinein": true,
+          "takeout": true,
+          "outdoorseating": true,
+          "delivery": true
+        },
       "picker": "Jesse"
-    },
-    {
+    },{
       "id": 10,
       "name": "Katz's Deli",
-      "type": "Delicatessen",
+      "type": "Delicatessen", 
       "image": "https://cdn.vox-cdn.com/thumbor/p4rNVVHzg23kcrsjHl4qKc7Y860=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10547027/Katzs_20Deli_20-_20pastrami_20autopsy_20shot.0.0.jpg",
+
       "description": "In 1888, a small deli by the name of Iceland Brothers was established on Ludlow Street in New York’s Lower East Side by the Iceland brothers. Upon the arrival of Willy Katz in 1903, the name of the store was officially changed to Iceland & Katz. Willy’s cousin Benny joined him in 1910, buying out the Iceland brothers to officially form Katz’s Delicatessen. Their landsman Harry Tarowsky bought into the partnership in April 1917. Katz’s Deli was moved across the street, to its present location, during the construction of the subway system. The vacant lot on Houston Street (pronounced House-ton) after a Dutch emigrant of the same name) was home to barrels of meat and pickles until the present storefront facade was added between 1946-49. In the early part of the twentieth century, the Lower East Side was home to millions of newly immigrated families. This, along with the lack of public and private transportation, forged a solid community such that Katz’s became a focal point for congregating. On Fridays the neighborhood turned out to enjoy franks and beans, a Katz tradition. During World War II, the three sons of the owners were all serving their country in the armed forces, and the family tradition of sending food to their sons became the company slogan “Send A Salami To Your Boy In The Army”. During the peak of the Yiddish theater, the restaurant was forever filled with actors, singers and comedians from the many theaters on 2nd Avenue, as well as the National Theater on Houston Street. Although the age of the Yiddish theater has passed, Katz's is still has its fair share of famous customers, whose photos now line our walls. The next change in ownership took place when Willy Katz passed away, and his son Lenny took over for him. In the late 70’s, both Benny Katz and Harry Tarowsky passed away, leaving the store to Benny's son-in-law Artie Maxstein and Harry's son Izzy Tarowsky. However by the mid-1980’s, the new generation of owners realized that they had no immediate family of their own to whom they could leave the store. Long-time friend and restaurateur Martin Dell, along with son Alan (who was a chef and a manager at a neighboring deli) and son-in-law Fred Austin, officially bought into the partnership in 1988 on the 100th anniversary of the store. Alan’s son Jake officially joined the store in late 2009 and is currently in charge of all major operations. Each week thousands of visitors from around the world flock to Katz's to dine in this legendary deli, and to feast on the most delectable sandwiches, platters and meats. But it's really New Yorkers have made Katz's Delicatessen what it is, making Katz's an inherent part of the city's culture and history. They enthusiastically spread the word, brought their friends in, wrote books, shot films, and kept coming back for a pastrami on rye. Building a reputation on longevity alone is nothin' to brag about, which is why we've built ours on quality. Now that's somethin' special. We only select the best cuts of beef for our corned beef, pastrami, brisket, and other fine foods. Our corned beef and pastrami is cured using a slower method, which best flavors the meat, without injecting chemicals, water, or other additives to speed the process. Our finished product can take up to a full 30 days to cure, while commercially prepared corned beef is often pressure-injected (or pumped) to cure in 36 hours. Yep, you read that right. 30 days vs. 36 hours. Now, which sounds like the better meat to you?",
       "address": {
-        "street": "205 East Houston Street",
-        "city": "New York",
-        "state": "NY",
-        "zipcode": "10002"
-      },
+          "street": "205 East Houston Street",
+          "city": "New York",
+          "state": "NY",
+          "zipcode": "10002"
+        },
       "menu": "https://localmenu.katzsdelicatessen.com/",
       "services": {
-        "dinein": true,
-        "takeout": true,
-        "outdoorseating": false,
-        "delivery": true
-      },
+          "dinein": true,
+          "takeout": true,
+          "outdoorseating": false,
+          "delivery": true
+        },
       "picker": "Jesse"
-    },
-    {
-      "name": "The Cute Palace",
-      "type": "Chophouse",
-      "image": "https://ojah88.github.io/Good-Doggos/2.jpeg",
-      "description": "blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop blah blah who cares blah beep bop ",
-      "address": {
-        "street": "123 Fake Blvd",
-        "city": "New York",
-        "state": "NY",
-        "zipcode": "12345"
-      },
-      "menu": "",
-      "services": {
-        "dinein": "",
-        "takeout": "Take Out",
-        "outdoorseating": "Outdoor Seating",
-        "delivery": ""
-      },
-      "picker": "Jesse",
-      "id": 13
     }
+   
   ]
 }

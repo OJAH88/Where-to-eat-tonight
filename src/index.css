@@ -6,11 +6,17 @@
   font-family: "Quicksand";
   color: #333;
 }
+
+.img {
+  border: 1px solid #f1356d;
+}
+
+
 .navbar {
   padding: 25px;
   display: flex;
   align-items: center;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -20,16 +26,35 @@
 .navbar .links {
   margin-left: auto;
 }
+
+.navbar button {
+  background: #f1356d;
+  color: #fff;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.navbar button:hover{
+  color: #fff;
+  background: #881839;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
-.navbar a:hover {
-  color: #f1356d;
-}
+
 .content {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
 }
@@ -46,6 +71,7 @@
 }
 .restaurant-preview:hover {
   box-shadow: 5px 7px 9px blueviolet;
+  background-color: #c8f3d8
 }
 .restaurant-preview h2 {
   font-size: 20px;
@@ -65,14 +91,26 @@
 .restaurant-details div {
   margin: 20px 0;
 }
+
+
 .restaurant-details button {
   background: #f1356d;
   color: #fff;
-  border: 0;
-  padding: 8px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
   border-radius: 8px;
   cursor: pointer;
 }
+
+.restaurant-details button:hover{
+  color: #fff;
+  background: #881839;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
 
 /* create new restaurant form */
 .create {
@@ -100,8 +138,41 @@
 .create button {
   background: #f1356d;
   color: #fff;
-  border: 20;
+  border: 2px;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.remove button {
+  background: red;
+  color: #fff;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.remove button:hover{
+  color: black;
+  background: yellow;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.filter button {
+  background: #f1356d;
+  color: #fff;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filter button:hover{
+  color: #fff;
+  background: #881839;
 }

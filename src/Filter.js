@@ -1,5 +1,8 @@
 import {useState} from 'react'
 import {useHistory} from 'react-router-dom'
+import Button from 'react-bootstrap/Button';
+
+
 function Filter({handleFilter}){
     const history = useHistory()
     const [type, setType] = useState("")
@@ -13,12 +16,15 @@ function Filter({handleFilter}){
             history.push(`/restaurants/${random}`)
         })
     }
+    
+
 
     
     return(
-        <div>
-       <label>Cuisine Type</label>
-                <select
+        <div className = "filter"><center>
+       <label><h4>Filter By Cuisine Type</h4></label>
+       <br />
+       <select
                 value={type}
                 placeholder="Pick A Cuisine Type"
                 onChange={(e) => {
@@ -39,8 +45,12 @@ function Filter({handleFilter}){
 
                 </select>
 
-            <button onClick={handleClick} id="generator">What to Eat?</button>
-        </div>
+           <div>
+           <br />
+                <h5>Still can't decide?</h5>
+               
+               <button class="btn-lg" onClick={handleClick} id="generator">Let Fate Choose</button>
+        </div></center></div>
     )
 }
 export default Filter;

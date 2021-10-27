@@ -170,7 +170,7 @@ const Create = () => {
                 <p>{type}</p>
                 <p> <img src = {image} alt = "temp image" width="50%" height="50%"  /> </p>
                 <p> {street} {city} {state} {zipcode}</p>
-                <p> {dinein} {takeout} {outdoorseating} {delivery} </p>
+                <p> {dinein}{' '}{takeout}{' '}{outdoorseating}{' '}{delivery} </p>
                 <p>{picker}</p>
                 <p>{description}</p>
             </form>

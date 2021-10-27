@@ -13,6 +13,7 @@ import {useState} from 'react'
 
 function App() {
   const [filterType, setFilterType] = useState('')
+ 
   function handleFilter(type){
     setFilterType(type)}
 
