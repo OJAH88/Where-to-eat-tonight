@@ -25,7 +25,6 @@ const RestaurantDetails = () => {
     }
     const [newComment , setNewComment]= useState([])
 
-
     function handleComments(e){ 
        setNewComment(e.target.value)}
     function submitComment(){
