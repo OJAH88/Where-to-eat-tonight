@@ -19,9 +19,7 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jane"
     },
     {
@@ -43,9 +41,7 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jane"
     },
     {
@@ -68,7 +64,12 @@
         "delivery": true
       },
       "comments": [
-        
+        "There noodles are really good!",
+        "I like their chicken wing yakitori!",
+        "Love love love!",
+        "I like it!",
+        "I like it!",
+        "Testing!"
       ],
       "picker": "Jane"
     },
@@ -91,9 +92,7 @@
         "outdoorseating": true,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jane"
     },
     {
@@ -115,9 +114,7 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jane"
     },
     {
@@ -139,9 +136,7 @@
         "outdoorseating": true,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jesse"
     },
     {
@@ -163,9 +158,7 @@
         "outdoorseating": true,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jesse"
     },
     {
@@ -187,9 +180,7 @@
         "outdoorseating": false,
         "delivery": false
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jesse"
     },
     {
@@ -211,9 +202,7 @@
         "outdoorseating": true,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jesse"
     },
     {
@@ -235,9 +224,7 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "comments": [
-        
-      ],
+      "comments": [],
       "picker": "Jesse"
     }
   ]

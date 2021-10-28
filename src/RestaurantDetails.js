@@ -10,7 +10,7 @@ import { useState } from "react"
 
 const RestaurantDetails = () => {
     const {id} = useParams()
-    const { data: restaurant, error, isLoading } = useFetch('http://localhost:4000/restaurants/' + id)
+    let { data: restaurant, error, isLoading } = useFetch('http://localhost:4000/restaurants/' + id)
     const history = useHistory();
     const handleDelete = () => {
         fetch('http://localhost:4000/restaurants/' + restaurant.id, {
@@ -21,6 +21,7 @@ const RestaurantDetails = () => {
         })
         
     }
+    const [restaurant, setRestaurant] = useState(restaurant)
     const [newComment , setNewComment]= useState([])
     function handleComments(e){ 
        setNewComment(e.target.value)}
@@ -37,7 +38,11 @@ const RestaurantDetails = () => {
             })
         .then(r=>r.json())
         .then((data)=> { console.log(data)
-        history.push("/restaurants")})    
+            setRestaurant(data)})
+            // const idx = restaurant.findIndex((restaurant)=> restaurant.id === data.id)
+    //        const restaurantCopy= [...restaurant] 
+    //        restaurantCopy[restaurant.id-1]=data
+    //    setData(restaurantCopy)})    
         
     }
 
