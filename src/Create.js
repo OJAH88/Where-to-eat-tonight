@@ -56,7 +56,7 @@ const Create = () => {
 
         
         <div className="create">
-            <h2>Add a New Restaurant!</h2>
+            <h1>Add a New Restaurant!</h1>
             <form onSubmit={handleSubmit}>
                 <label>Restaurant Name:</label>
                 <input
