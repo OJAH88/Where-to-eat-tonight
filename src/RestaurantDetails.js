@@ -12,7 +12,7 @@ import Alerts from "react-bootstrap/Alert"
 
 const RestaurantDetails = () => {
     const {id} = useParams()
-    let { data: restaurant, error, isLoading } = useFetch('http://localhost:4000/restaurants/' + id)
+    const { data: restaurant, error, isLoading } = useFetch('http://localhost:4000/restaurants/' + id)
     const history = useHistory();
     const handleDelete = () => {
         fetch('http://localhost:4000/restaurants/' + restaurant.id, {
@@ -20,16 +20,16 @@ const RestaurantDetails = () => {
         }).then(() => {
             history.push('/')
 
-        })
-        
+        })   
     }
-    const [restaurant, setRestaurant] = useState(restaurant)
     const [newComment , setNewComment]= useState([])
-
+    const [commentsToDisplay, setCommentsToDisplay]= useState()
+    const [add, setAdd]=useState(false)
     function handleComments(e){ 
-       setNewComment(e.target.value)}
+       setNewComment(e.target.value)}   
+
     function submitComment(){
-        let updatedComments = [...restaurant.comments, newComment]
+        let updatedComments = commentsToDisplay ? ([...commentsToDisplay, newComment]) : [...restaurant.comments, newComment]
         fetch('http://localhost:4000/restaurants/' + restaurant.id, {
             method: "PATCH",
             headers: {
@@ -40,14 +40,14 @@ const RestaurantDetails = () => {
               }),
             })
         .then(r=>r.json())
-        .then((data)=> { console.log(data)
-            setRestaurant(data)})
-            // const idx = restaurant.findIndex((restaurant)=> restaurant.id === data.id)
-    //        const restaurantCopy= [...restaurant] 
-    //        restaurantCopy[restaurant.id-1]=data
-    //    setData(restaurantCopy)})    
+        .then((data)=> { 
+        setCommentsToDisplay(data.comments)
+        setAdd(!add)
+        setNewComment([])
+        })}
+         
         
-    }
+    
 
     return(
         <div className="restaurant-details">
@@ -55,7 +55,7 @@ const RestaurantDetails = () => {
             
             { error && <div>{error}</div>}
             
-            {restaurant && <article>
+            {restaurant  && <article>
                 <center><h1>{restaurant.name}</h1>
              
                 <p><h5>Picked By:  {restaurant.picker} </h5></p></center>
@@ -98,9 +98,12 @@ const RestaurantDetails = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            
-                    {restaurant.comments.map((comment)=>{
-                return <tr><td>{comment}</td></tr>})}
+                   
+                    {commentsToDisplay? (
+                    commentsToDisplay.map((comment)=>{
+                return <tr><td>{comment}</td></tr>}) ) : (
+                    restaurant.comments.map((comment)=>{
+                return <tr><td>{comment}</td></tr>}) )}
                 </tbody></table>
                 </p></center></div>
   
