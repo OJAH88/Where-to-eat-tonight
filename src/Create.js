@@ -22,6 +22,7 @@ const Create = () => {
     const [outdoorseating, setOutdoorseating] = useState('')
     const [delivery, setDelivery] = useState('')
     const [description, setDescription] = useState('')
+    const [comments, setComments] = useState([])
     const [picker, setPicker] = useState('')
     const [isLoading, setIsLoading] = useState(false);
     const history = useHistory();
@@ -29,7 +30,7 @@ const Create = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault()
-        const newRestaurant = { name, type, image, description, address:{street, city, state, zipcode}, menu, services:{dinein, takeout, outdoorseating, delivery}, picker };
+        const newRestaurant = { name, type, image, description, address:{street, city, state, zipcode}, menu, services:{dinein, takeout, outdoorseating, delivery}, comments, picker };
         console.log(newRestaurant)
 
         setIsLoading(true);
@@ -55,7 +56,7 @@ const Create = () => {
 
         
         <div className="create">
-            <h2>Add a New Restaurant!</h2>
+            <h1>Add a New Restaurant!</h1>
             <form onSubmit={handleSubmit}>
                 <label>Restaurant Name:</label>
                 <input
@@ -133,6 +134,12 @@ const Create = () => {
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
                 />
+                <label>Comments:</label>
+                <textarea
+                    required
+                    value={comments}
+                    onChange={(e) => setComments(e.target.value)}
+                />
 
                 <label>Services Offered:</label><br />
                 
@@ -173,6 +180,7 @@ const Create = () => {
                 <p> {dinein}{' '}{takeout}{' '}{outdoorseating}{' '}{delivery} </p>
                 <p>{picker}</p>
                 <p>{description}</p>
+                <p>{comments}</p>
             </form>
         </div>        
     )

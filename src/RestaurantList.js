@@ -8,7 +8,7 @@ const RestaurantList = ({restaurants, title}) => {
  
   return(
     <div className="restaurant-list">
-    <h2>{title}</h2>
+    <h1>{title}</h1>
     {restaurants.sort(function() { return 0.5 - Math.random() }).map(restaurant => (
       <div className="restaurant-preview" key={restaurant.id} >
          <Link to={`/restaurants/${restaurant.id}`}> 

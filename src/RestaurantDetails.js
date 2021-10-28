@@ -4,6 +4,9 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
+import { useState } from "react"
+import Alerts from "react-bootstrap/Alert"
+
 
 
 
@@ -20,7 +23,28 @@ const RestaurantDetails = () => {
         })
         
     }
+    const [newComment , setNewComment]= useState([])
 
+
+    function handleComments(e){ 
+       setNewComment(e.target.value)}
+    function submitComment(){
+        let updatedComments = [...restaurant.comments, newComment]
+        fetch('http://localhost:4000/restaurants/' + restaurant.id, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                comments:  updatedComments
+              }),
+            })
+        .then(r=>r.json())
+        .then((data)=> { console.log(data)
+        history.push("/")
+    })    
+        
+    }
 
     return(
         <div className="restaurant-details">
@@ -59,10 +83,45 @@ const RestaurantDetails = () => {
          
                 <br></br>
                 <div><h3>Description:</h3> {restaurant.description}</div>
-                <br></br>
+
+
+                <div class="row">
+  <div class="col-sm-6"><center><h3>Comments: </h3> </center>
+                <center><p>
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead>
+                            <tr>
+                            <th>Comments:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                    {restaurant.comments.map((comment)=>{
+                return <tr><td>{comment}</td></tr>})}
+                </tbody></table>
+                </p></center></div>
+  
+  <div class="col-sm-6"><center><h3>New Comment: </h3>
+  <textarea
+   class="form-control" rows="5" id="comment"
+                    value={newComment}
+                    onChange={handleComments}
+                /><br></br>
+                <button onClick={submitComment}>Add Comments</button>
+                </center></div>
+</div>
+
+             
+               
                 
-               <div className= "remove">
-                <button onClick={() => handleDelete(restaurant.id)}>Delete Restaurant</button></div>
+
+                
+                
+                <div class="alert alert-danger"><center>
+                    
+                <button type="button" class="btn btn-danger btn-lg btn-block" onClick={() => handleDelete(restaurant.id)}>Delete Restaurant</button>
+                <br></br><strong>Danger!</strong> <br></br>This is irreversible.
+                </center></div>
                 </article>}
         </div>
     )

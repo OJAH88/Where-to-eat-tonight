@@ -16,10 +16,7 @@ function Filter({handleFilter}){
             history.push(`/restaurants/${random}`)
         })
     }
-    
 
-
-    
     return(
         <div className = "filter"><center>
        <label><h4>Filter By Cuisine Type</h4></label>
@@ -49,7 +46,7 @@ function Filter({handleFilter}){
            <br />
                 <h5>Still can't decide?</h5>
                
-               <button class="btn-lg" onClick={handleClick} id="generator">Let Fate Choose</button>
+               <button class="btn-lg" onClick={handleClick} id="generator">Leave It To Fate!</button>
         </div></center></div>
     )
 }
