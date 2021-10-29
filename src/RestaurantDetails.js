@@ -25,6 +25,7 @@ const RestaurantDetails = () => {
     const [newComment , setNewComment]= useState([])
     const [commentsToDisplay, setCommentsToDisplay]= useState()
     const [add, setAdd]=useState(false)
+    
     function handleComments(e){ 
        setNewComment(e.target.value)}   
 
@@ -45,8 +46,28 @@ const RestaurantDetails = () => {
         setAdd(!add)
         setNewComment([])
         })}
-         
-        
+  
+
+    function deleteComment(e){
+        let idx = commentsToDisplay? (commentsToDisplay.indexOf(e)) : (restaurant.comments.indexOf(e))
+        console.log(idx)
+        let afterDeleted = commentsToDisplay? (commentsToDisplay.filter((comment)=> comment !== e)) : (restaurant.comments.filter((comment)=> comment !==e ))
+        console.log(afterDeleted)
+        fetch('http://localhost:4000/restaurants/' + restaurant.id, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                comments:  afterDeleted
+              }),
+            })
+        .then(r=>r.json())
+        .then((data)=> { 
+        setCommentsToDisplay(data.comments)
+        setAdd(!add)
+        })
+    }
     
 
     return(
@@ -101,9 +122,9 @@ const RestaurantDetails = () => {
                    
                     {commentsToDisplay? (
                     commentsToDisplay.map((comment)=>{
-                return <tr><td>{comment}</td></tr>}) ) : (
+                return <tr><td key={comment} id={comment} onClick={()=>deleteComment(comment)}>{comment}</td></tr>}) ) : (
                     restaurant.comments.map((comment)=>{
-                return <tr><td>{comment}</td></tr>}) )}
+                return <tr><td key={comment} id={comment} onClick={()=>deleteComment(comment)} >{comment}</td></tr>}) )}
                 </tbody></table>
                 </p></center></div>
   
@@ -116,11 +137,6 @@ const RestaurantDetails = () => {
                 <button onClick={submitComment}>Add Comments</button>
                 </center></div>
 </div>
-
-             
-               
-                
-
                 
                 
                 <div class="alert alert-danger"><center>
