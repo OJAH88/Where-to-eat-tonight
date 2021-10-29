@@ -19,7 +19,10 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "comments": [],
+      "orderlink" : "https://www.doordash.com/store/cheli-new-york-1562220/?utm_campaign=gpa",
+      "comments": [
+        "The restaurant decor is so nice!"
+      ],
       "picker": "Jane"
     },
     {
@@ -41,7 +44,11 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "comments": [],
+      "orderlink" : "https://www.grubhub.com/restaurant/yumpling-4911-vernon-blvd-long-island-city-queens-long-island-city-queens/1739098",
+      "comments": [
+        "I love the popcorn chicken there!",
+        "Made me think of home!!"
+      ],
       "picker": "Jane"
     },
     {
@@ -63,6 +70,7 @@
         "outdoorseating": true,
         "delivery": true
       },
+      "orderlink": "https://www.doordash.com/store/nonono-new-york-896933/?utm_campaign=gpa",
       "comments": [],
       "picker": "Jane"
     },
@@ -85,6 +93,7 @@
         "outdoorseating": true,
         "delivery": true
       },
+      "orderlink":"https://direct.chownow.com/order/29667/locations/43871",
       "comments": [],
       "picker": "Jane"
     },
@@ -107,7 +116,11 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "comments": [],
+      "orderlink": "https://oreganowilliamsburg.square.site/?location=11ebd852fad2fbc38214ac1f6bbba82c",
+      "comments": [
+        "The shrimp pasta is my favorite!",
+        "They have the best tiramisu!!!!"
+      ],
       "picker": "Jane"
     },
     {
@@ -129,6 +142,7 @@
         "outdoorseating": true,
         "delivery": true
       },
+      "orderlink":"https://www.doordash.com/store/caracas-arepa-bar-brooklyn-6306/?utm_campaign=gpa",
       "comments": [],
       "picker": "Jesse"
     },
@@ -151,6 +165,7 @@
         "outdoorseating": true,
         "delivery": true
       },
+      "orderlink":"https://sottocasanyc.com/order-online-brooklyn/#/restaurants/sottocasabrooklyn/9792",
       "comments": [],
       "picker": "Jesse"
     },
@@ -173,6 +188,7 @@
         "outdoorseating": false,
         "delivery": false
       },
+      "orderlink":"https://postmates.com/store/wolfgangs-steakhouse/B0NFYaqqQwSX03Lert_4pA",
       "comments": [],
       "picker": "Jesse"
     },
@@ -195,6 +211,7 @@
         "outdoorseating": true,
         "delivery": true
       },
+      "orderlink": "https://www.doordash.com/store/bedouin-tent-restaurant-boerum-hill-45812/?utm_campaign=gpa",
       "comments": [],
       "picker": "Jesse"
     },
@@ -217,6 +234,7 @@
         "outdoorseating": false,
         "delivery": true
       },
+      "orderlink":"https://localmenu.katzsdelicatessen.com/menu-and-local.html",
       "comments": [],
       "picker": "Jesse"
     }

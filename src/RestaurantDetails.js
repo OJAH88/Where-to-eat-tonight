@@ -97,7 +97,7 @@ const RestaurantDetails = () => {
                             {restaurant.services.dinein ? <a href="http://www.google.com/" target="_blank"> <button>Dine In</button></a> : null}{' '} 
                             {restaurant.services.takeout ? <a href="http://www.google.com" target="_blank"><button>Take Out</button></a>: null}{' '}
                             {restaurant.services.outdoorseating ? <a href="http://www.google.com" target="_blank"><button>Outdoor Seating</button></a> : null}{' '}
-                            {restaurant.services.delivery ? <a href="http://www.google.com" target="_blank"><button>Delivery</button></a> : null}
+                            {restaurant.services.delivery ? <a href={restaurant.orderlink} ><button>Delivery</button></a> : null}
                             </h5>  
                         </div> 
                     </Col> 
