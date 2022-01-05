@@ -19,7 +19,7 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "orderlink" : "https://www.doordash.com/store/cheli-new-york-1562220/?utm_campaign=gpa",
+      "orderlink": "https://www.doordash.com/store/cheli-new-york-1562220/?utm_campaign=gpa",
       "comments": [
         "The restaurant decor is so nice!"
       ],
@@ -44,7 +44,7 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "orderlink" : "https://www.grubhub.com/restaurant/yumpling-4911-vernon-blvd-long-island-city-queens-long-island-city-queens/1739098",
+      "orderlink": "https://www.grubhub.com/restaurant/yumpling-4911-vernon-blvd-long-island-city-queens-long-island-city-queens/1739098",
       "comments": [
         "I love the popcorn chicken there!",
         "Made me think of home!!"
@@ -93,7 +93,7 @@
         "outdoorseating": true,
         "delivery": true
       },
-      "orderlink":"https://direct.chownow.com/order/29667/locations/43871",
+      "orderlink": "https://direct.chownow.com/order/29667/locations/43871",
       "comments": [],
       "picker": "Jane"
     },
@@ -117,10 +117,7 @@
         "delivery": true
       },
       "orderlink": "https://oreganowilliamsburg.square.site/?location=11ebd852fad2fbc38214ac1f6bbba82c",
-      "comments": [
-        "The shrimp pasta is my favorite!",
-        "They have the best tiramisu!!!!"
-      ],
+      "comments": [],
       "picker": "Jane"
     },
     {
@@ -142,7 +139,7 @@
         "outdoorseating": true,
         "delivery": true
       },
-      "orderlink":"https://www.doordash.com/store/caracas-arepa-bar-brooklyn-6306/?utm_campaign=gpa",
+      "orderlink": "https://www.doordash.com/store/caracas-arepa-bar-brooklyn-6306/?utm_campaign=gpa",
       "comments": [],
       "picker": "Jesse"
     },
@@ -165,7 +162,7 @@
         "outdoorseating": true,
         "delivery": true
       },
-      "orderlink":"https://sottocasanyc.com/order-online-brooklyn/#/restaurants/sottocasabrooklyn/9792",
+      "orderlink": "https://sottocasanyc.com/order-online-brooklyn/#/restaurants/sottocasabrooklyn/9792",
       "comments": [],
       "picker": "Jesse"
     },
@@ -188,7 +185,7 @@
         "outdoorseating": false,
         "delivery": false
       },
-      "orderlink":"https://postmates.com/store/wolfgangs-steakhouse/B0NFYaqqQwSX03Lert_4pA",
+      "orderlink": "https://postmates.com/store/wolfgangs-steakhouse/B0NFYaqqQwSX03Lert_4pA",
       "comments": [],
       "picker": "Jesse"
     },
@@ -234,9 +231,31 @@
         "outdoorseating": false,
         "delivery": true
       },
-      "orderlink":"https://localmenu.katzsdelicatessen.com/menu-and-local.html",
+      "orderlink": "https://localmenu.katzsdelicatessen.com/menu-and-local.html",
       "comments": [],
       "picker": "Jesse"
+    },
+    {
+      "name": "Jah",
+      "type": "Chinese",
+      "image": "https://github.com/OJAH88/Good-Doggos/blob/main/3.jpeg",
+      "description": "jk",
+      "address": {
+        "street": "122",
+        "city": "bjhs",
+        "state": "iljui",
+        "zipcode": "likjk"
+      },
+      "menu": "",
+      "services": {
+        "dinein": "",
+        "takeout": "",
+        "outdoorseating": "Outdoor Seating",
+        "delivery": ""
+      },
+      "comments": "jkkjj",
+      "picker": "Jesse",
+      "id": 11
     }
   ]
 }
