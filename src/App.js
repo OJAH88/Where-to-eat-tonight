@@ -17,6 +17,7 @@ function App() {
   function handleFilter(type){
     setFilterType(type)}
 
+    
 
   return (
     <Router>
