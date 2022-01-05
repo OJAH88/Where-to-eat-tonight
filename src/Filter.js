@@ -3,7 +3,6 @@ import {useHistory} from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 
 
-
 function Filter({handleFilter}){
     const history = useHistory()
     const [type, setType] = useState("")
